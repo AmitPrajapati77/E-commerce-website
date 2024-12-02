@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #C850C0;
+    color: #333;
+    
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header .logo h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background: white;
+    border: 1px solid #ddd;
+    width: 250px;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.product-card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.product-card p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.product-card .add-to-cart {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.product-card .add-to-cart:hover {
+    background: #218838;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+}
